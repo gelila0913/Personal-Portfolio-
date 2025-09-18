@@ -1,0 +1,69 @@
+/*styling header*/
+header{
+    background-color: black;
+    border-radius:30px;
+
+}
+/*An image of peacock*/
+.logo{
+    color:white;
+    font-size:10px;
+}
+img{
+    padding:10px;
+    width:50px;
+    height:50px;
+    border-radius:30px;
+}
+h1{
+    color:burlywood;
+    font-size: 30px;
+    font-style: italic;
+}
+/*styling navigation link*/
+.nav{
+    display:flex;
+    flex-direction:row;
+    padding-left:80px;
+    padding-bottom: 15px;
+    gap:50px;
+    padding-top: 10px;
+
+}
+.nav a{
+    font-weight: bold;
+    border-radius: 10px;
+    color:rgb(179, 33, 145);
+    
+}
+/*mouseover color change  */
+.nav a:hover{
+    color:rgb(99, 133, 162);
+}
+body{
+    background-color: blanchedalmond;
+}
+.info{
+    border-radius:20px;
+    background-color: white;
+    color:rgb(11, 95, 154);
+    padding-left:20px;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width:800px;
+    margin:70px;
+    padding-bottom: 20px;
+}
+.info h2{
+   color:green;
+   font-weight: bold;
+}
+.edu{
+    background-color: rgb(232, 242, 245);
+    border-radius:30px;
+    margin:50px;
+    max-width:900px;
+    padding-left:10;
+    
+}
