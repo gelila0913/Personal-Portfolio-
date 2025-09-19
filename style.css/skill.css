@@ -93,4 +93,32 @@ footer img{
     transform:rotate(20deg);
 
 }
+.styled-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.styled-table th, 
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.styled-table th {
+  background-color: #805a9b; /* Indigo header */
+  color: white;
+  text-transform: uppercase;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  background-color: #ddd;
+}
 
