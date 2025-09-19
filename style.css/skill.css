@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    back-ground:bisque;
+}
+
+/*styling header*/
+header{
+    background-color: black;
+    border-radius:30px;
+
+}
+/*An image of peacock*/
+.logo{
+    color:white;
+    font-size:10px;
+}
+img{
+    padding:10px;
+    width:50px;
+    height:50px;
+    border-radius:30px;
+}
+h1{
+    color:burlywood;
+    font-size: 30px;
+    font-style: italic;
+}
+/*styling navigation link*/
+.nav{
+    display:flex;
+    flex-direction:row;
+    padding-left:80px;
+    padding-bottom: 15px;
+    gap:50px;
+    padding-top: 10px;
+
+}
+.nav a{
+    font-weight: bold;
+    border-radius: 10px;
+    color:rgb(179, 33, 145);
+    
+}
+/*mouseover color change  */
+.nav a:hover{
+    color:rgb(99, 133, 162);
+}
+body{
+    background-color: blanchedalmond;
+}
+
+
+/*styling footer*/
+footer{
+    margin-top:50px;
+    background-color: black;
+    border-radius: 30px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+}
+footer img{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+}
+.ft p{
+    color:white;
+    font-family:Bungee;
+    padding:10px 10px 10px 10px ;
+}
+.ft img{
+    border-radius: 50px;
+    padding-left:30px;
+}
+.skil{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding-top:20px;
+}
+.skil img{
+    background-color: rgb(233, 203, 225);
+    border-radius:10px;
+    width:200px;
+    height:auto;
+}
+.skil img:hover{
+    transform:rotate(20deg);
+
+}
+
